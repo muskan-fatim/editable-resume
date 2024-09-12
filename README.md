@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Editable Resume Builder
 
-First, run the development server:
+This project is an editable resume builder built using **Next.js**, **TypeScript**, **HTML**, and **CSS**. The application allows users to create, edit, and customize their resumes, then generate a downloadable PDF or a unique URL for sharing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User Input Forms**: Capture personal information, education, work experience, and skills.
+- **Dynamic Resume Preview**: Real-time updates as users input data.
+- **Resume Editing**: Users can modify their resume at any time.
+- **Generate Unique URL**: Share the resume via a unique URL.
+- **Download as PDF**: Export the resume as a PDF file.
+- **Stylish Design**: Clean and modern UI with customizable styles using CSS.
+  
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React-based framework for server-side rendering and static site generation.
+- **TypeScript**: For static typing and improved development experience.
+- **CSS**: For styling and design of the application.
+- **localStorage**: Store user data locally.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/your-username/Resum.git
+   cd Resum
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Usage
+
+1. **Filling Out Your Resume**: Enter personal details, education, work experience, and skills into the respective sections.
+2. **Editing**: Modify sections dynamically by editing the form fields.
+3. **Preview**: The resume updates in real-time based on your inputs.
+4. **Generating PDF**: Click the "Download as PDF" button to generate and download your resume.
+5. **Sharing a URL**: Create a shareable link to your resume by generating a unique URL
+
+## Contribution
+
+Feel free to submit issues or pull requests to improve the project! Contributions are always welcome.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
